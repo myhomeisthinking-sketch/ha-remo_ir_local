@@ -1,0 +1,21 @@
+send:
+  name: Send signal
+  description: 台帳のRemoへ赤外線信号を送信します。
+  fields:
+    remo:
+      name: Remo
+      description: Remoの識別子(例 A35014)
+      required: true
+      example: "A35014"
+      selector:
+        text:
+    payload:
+      name: Payload
+      description: '{"format":"us","freq":38,"data":[...]} 形式のJSON文字列'
+      required: true
+      selector:
+        text:
+          multiline: true
+refresh:
+  name: Refresh addresses
+  description: ARPを走査してRemoのIPアドレスを更新します。

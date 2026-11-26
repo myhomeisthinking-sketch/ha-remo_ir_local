@@ -1,0 +1,14 @@
+{
+  "domain": "remo_ir_local",
+  "name": "Remo IR Local",
+  "codeowners": ["@myhomeisthinking-sketch"],
+  "config_flow": true,
+  "dependencies": ["http", "frontend", "panel_custom", "network", "zeroconf"],
+  "documentation": "https://github.com/myhomeisthinking-sketch/ha-remo_ir_local",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/myhomeisthinking-sketch/ha-remo_ir_local/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}

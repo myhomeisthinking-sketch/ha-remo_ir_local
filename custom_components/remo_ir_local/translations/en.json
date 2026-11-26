@@ -1,0 +1,9 @@
+{
+  "config": {
+    "step": {"user": {"title": "Remo IR Local", "description": "Adds a panel to learn IR signals via the Nature Remo Local API and manage them as button entities."}},
+    "abort": {"single_instance_allowed": "Only one Remo IR Local can be added."}
+  },
+  "options": {
+    "step": {"init": {"title": "Remo IR Local", "data": {"interval_minutes": "Address consistency check interval (minutes)"}}}
+  }
+}

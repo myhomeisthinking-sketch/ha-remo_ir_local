@@ -1,0 +1,9 @@
+{
+  "config": {
+    "step": {"user": {"title": "Remo IR Local", "description": "Nature Remo Local APIで赤外線信号を学習し、ボタンとして管理するパネルを追加します。"}},
+    "abort": {"single_instance_allowed": "Remo IR Localは1つだけ追加できます。"}
+  },
+  "options": {
+    "step": {"init": {"title": "Remo IR Local", "data": {"interval_minutes": "IP整合性チェックの間隔(分)"}}}
+  }
+}
